@@ -5,3 +5,4 @@ export { default as GridFour } from '$lib/components/layout/GridFour.svelte';
 export { default as GridFive } from '$lib/components/layout/GridFive.svelte';
 export { default as GridSix } from '$lib/components/layout/GridSix.svelte';
 export { default as GridSeven } from '$lib/components/layout/GridSeven.svelte';
+export { default as Sticker } from '$lib/components/layout/Sticker.svelte';
