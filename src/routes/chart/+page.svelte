@@ -5,7 +5,6 @@
 
 	export let data;
 
-	// @ts-ignore
 	countries.set(data.data);
 </script>
 
