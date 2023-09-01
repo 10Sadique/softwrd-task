@@ -1,8 +1,6 @@
 <script>
 	import TableRow from './TableRow.svelte';
 	import { countries } from '../../../stores/countryDataStore';
-
-	console.log($countries);
 </script>
 
 <div class="relative col-span-2 overflow-hidden rounded-lg">
