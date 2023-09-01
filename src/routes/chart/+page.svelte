@@ -1,11 +1,11 @@
 <script>
-	import { countries } from '../../stores/countryDataStore';
+	import { page } from '$app/stores';
+
 	import Table from '$lib/components/chart/Table.svelte';
+	import { countries } from '../../stores/countryDataStore';
 	import PolarAreaChart from '$lib/components/chart/PolarAreaChart.svelte';
 
-	export let data;
-
-	countries.set(data.data);
+	countries.set($page.data.data);
 </script>
 
 <div class="grid grid-cols-3 gap-8">
