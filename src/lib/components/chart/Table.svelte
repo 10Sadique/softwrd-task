@@ -5,7 +5,7 @@
 
 <div class="relative col-span-2 overflow-hidden rounded-lg">
 	<table class="w-full text-xs text-left">
-		<thead class="text-xs text-gray-700 bg-gray-50">
+		<thead class="text-xs text-gray-700 bg-white border-b">
 			<tr>
 				<th scope="col" class="px-3 py-3">Flag</th>
 				<th scope="col" class="px-3 py-3">Name</th>
