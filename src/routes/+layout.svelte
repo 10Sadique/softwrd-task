@@ -2,6 +2,10 @@
 	import '../app.css';
 </script>
 
+<svelte:head>
+	<title>Softwrd Assesment</title>
+</svelte:head>
+
 <slot />
 
 <style lang="postcss">
