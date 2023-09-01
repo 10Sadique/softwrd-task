@@ -8,10 +8,10 @@
 		<thead class="text-xs text-gray-700 bg-white border-b">
 			<tr>
 				<th scope="col" class="px-3 py-3">Flag</th>
-				<th scope="col" class="px-3 py-3">Name</th>
+				<th scope="col" class="px-3 py-3 w-[160px]">Name</th>
 				<th scope="col" class="px-3 py-3">Population</th>
 				<th scope="col" class="px-3 py-3">CIOC</th>
-				<th scope="col" class="px-3 py-3">UN Member Status</th>
+				<th scope="col" class="px-3 py-3 w-[135px]">UN Member Status</th>
 				<th scope="col" class="px-3 py-3">Currencies</th>
 				<th scope="col" class="px-3 py-3">Language</th>
 			</tr>
