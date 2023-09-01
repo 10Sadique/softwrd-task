@@ -23,6 +23,6 @@
 	</td>
 
 	<!-- TODO: Try to solve the error when try to convert the object to array of strings and make them comma seperated. -->
-	<td class="px-3 py-3">{country?.languages}</td>
-	<td class="px-3 py-3">{country?.languages}</td>
+	<td class="px-3 py-3">{country?.currencies || ''}</td>
+	<td class="px-3 py-3">{country?.languages || ''}</td>
 </tr>
