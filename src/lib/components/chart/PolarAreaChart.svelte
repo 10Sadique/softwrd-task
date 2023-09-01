@@ -7,7 +7,6 @@
 		.slice(0, -1)
 		.sort((a, b) => b.population - a.population)
 		.slice(0, 10);
-	console.log(mostPopulated);
 
 	/**
 	 * @type {import("chart.js/auto").ChartItem}
