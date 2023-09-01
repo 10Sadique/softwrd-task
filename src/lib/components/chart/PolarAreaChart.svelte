@@ -8,13 +8,9 @@
 		.sort((a, b) => b.population - a.population)
 		.slice(0, 10);
 
-	/**
-	 * @type {import("chart.js/auto").ChartItem}
-	 */
 	let ctx;
 
 	onMount(async () => {
-		// @ts-ignore
 		const chart = new Chart(ctx, {
 			type: 'polarArea',
 			data: {
