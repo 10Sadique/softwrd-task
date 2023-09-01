@@ -1,6 +1,6 @@
 <script>
 	/**
-	 * @type {{ flags: { svg: string; }; name: { common: string; }; population: number; cioc: string; unMember: boolean; currencies: any; languages: any }}
+	 * @type {{ flags: { svg: string; }; name: { common: string; }; population: number; cioc: string; unMember: boolean; language: string, currency: string }}
 	 */
 	export let country;
 </script>
@@ -21,8 +21,10 @@
 			{country?.unMember ? 'Yes' : 'No'}
 		</span>
 	</td>
-
-	<!-- TODO: Try to solve the error when try to convert the object to array of strings and make them comma seperated. -->
-	<td class="px-3 py-3">{country?.currencies || ''}</td>
-	<td class="px-3 py-3">{country?.languages || ''}</td>
+	<td class="px-3 py-3">
+		{country?.currency || ''}
+	</td>
+	<td class="px-3 py-3">
+		{country?.language || ''}
+	</td>
 </tr>
